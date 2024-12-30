@@ -55,7 +55,7 @@ module.exports = class Device {
         peripheral.uuid,
         peripheral.advertisement.localName
       );
-      if (peripheral.uuid == this.uuid) {
+      if (peripheral.uuid == this.uuid || peripheral.advertisement.localName == "ELK-BLEDOM0E") {
         this.peripheral = peripheral;
         noble.stopScanning();
       }
