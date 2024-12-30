@@ -1,5 +1,5 @@
 {
-    "name": "@lyliya/homebridge-ledstrip-ble",
+    "name": "homebridge-ledstrip-ble",
     "version": "1.5.1",
     "displayName": "Homebridge Ledstrip BLE",
     "description": "",
@@ -14,17 +14,14 @@
         "node": ">=12.13.0",
         "homebridge": ">=1.3.0"
     },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Lyliya/homebridge-ledstrip-ble.git"
+        "url": "git+https://github.com/giulienw/homebridge-ledstrip-ble.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Lyliya/homebridge-ledstrip-ble/issues"
+        "url": "https://github.com/giulienw/homebridge-ledstrip-ble/issues"
     },
-    "homepage": "https://github.com/Lyliya/homebridge-ledstrip-ble#readme"
+    "homepage": "https://github.com/giulienw/homebridge-ledstrip-ble#readme"
 }
